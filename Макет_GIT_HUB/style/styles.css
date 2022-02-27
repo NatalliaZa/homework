@@ -1,0 +1,223 @@
+@import url(fonts.css);
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #ffffff;
+}
+
+
+.container {
+   
+    width: 1366px;
+    height: 2283px;
+    display:grid;
+    grid-template-columns: 33.5% 11.5% 21.5% 33.5%;
+    grid-template-rows: 31.3% 18.7% 18.7% 31.3%;
+    grid-template-areas: "a a a b"
+    "c c d d"
+    "c c e e"
+    "f g g g";}
+    /*---------------------------------------------item1--------------------------------------------*/
+    .item1 {
+    background-image: url(../img2/back1.png);
+    background-repeat: no-repeat; 
+    grid-area: a;
+    
+    }
+     /*---------------------------------------------item2--------------------------------------------*/
+    .item2 {
+    background-image: url(../img2/back2.png);
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding-left: 53px;
+    padding-top: 57px;
+    color: #262f32;
+    grid-area: b;
+    }
+    .menu{
+    height: 33px;
+    margin: 0;
+    padding: 0;
+        }
+
+    h3.it2 {
+    color: #262f32;
+    font-size: 40px;
+      }
+    .who2 {
+    height: 155px;
+    margin: 0;
+    margin-top: 72px;
+    padding: 0;
+    }
+    .lor2 {
+    margin: 0;
+    margin-top: 72px;
+    padding: 0;
+    }
+    /*---------------------------------------------item3--------------------------------------------*/
+    .item3 {
+    background-image: url(../img2/back3.png);
+    background-repeat: no-repeat; 
+    padding-left: 59px;
+    padding-top: 74px;
+    grid-area: c;
+        }
+    .who32 {
+    margin-top: 72px;
+    }
+    .text3 {
+    margin-top: 36px;
+    }
+    /*---------------------------------------------item4--------------------------------------------*/
+    .item4 {
+    background-image: url(../img2/back4.png);
+    background-repeat: no-repeat; 
+    padding-left: 59px;
+    padding-top: 74px;
+    grid-area: d;
+    }
+    h2.it4 {
+    color: #262f32;
+    }
+    #view{
+        width: 215px;
+        height: 52px;    
+        background: transparent;
+        font-size: 16.57px;
+        border: 1px solid #262f32;
+        border-radius: 15px;
+        margin-top: 36px;
+                }
+
+
+    /*---------------------------------------------item5--------------------------------------------*/
+    .item5 {
+    background-image: url(../img2/back5.png);
+    background-repeat: no-repeat;
+    padding-left: 59px;
+    padding-top: 74px;
+    grid-area: e;
+        }
+    #gopage{
+    width: 215px;
+    height: 52px;    
+    background: transparent;
+    font-size: 16.57px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    margin-top: 36px;
+                    }
+    /*---------------------------------------------item6--------------------------------------------*/
+    .item6 {
+    background-image: url(../img2/back6.png);
+    background-repeat: no-repeat; 
+    padding-left: 59px;
+    padding-top: 74px;
+    grid-area: f;
+       }
+    .logo{
+    margin-top: 252px;
+    }
+    .who62 {
+    margin-top: 28px;
+        }
+    .who63 {
+    margin-top: 28px;
+            }
+    /*---------------------------------------------item7--------------------------------------------*/
+    .item7 {
+    background-image: url(../img2/back7.png);
+    background-repeat: no-repeat;
+    padding-left: 59px;
+    grid-area: g;}
+
+    .inpt{
+    margin-top: 36px;
+    }
+        
+    INPUT.surname{
+            width: 302px;
+            height: 55px;
+            font-weight: 400;
+            font-size: 16,57pt;
+            border: 1px solid #ffffff;
+            background: transparent;
+            border-radius: 15px;
+            padding-left: 28px;
+        }
+    .surname:focus
+        {
+        outline: 0;
+        outline-offset: 0;}
+    INPUT.email{
+            width: 302px;
+            height: 55px;
+            font-weight: 400;
+            font-size: 16,57pt;
+            border: 1px solid #ffffff;
+            background: transparent;
+            border-radius: 15px;
+            padding-left: 28px;
+            margin-left: 13px;
+        }
+    .email:focus
+        {
+        outline: 0;
+        outline-offset: 0;
+    }
+    INPUT.textform{
+            width: 617px;
+            height: 159px;
+            font-weight: 400;
+            font-size: 16,57pt;
+            border: 1px solid #ffffff;
+            background: transparent;
+            border-radius: 15px;
+            padding-left: 28px;
+            margin-top:14px;     
+        }
+    
+    .textform:focus
+        {
+        outline: 0;
+        outline-offset: 0;}
+    .who7 {
+        margin-top:95px;  
+    }
+    .img7 {
+        margin-top:20px;  
+}
+    .who72 {
+    margin-top:50px;   
+    }
+    .dribble, .twitter {
+    margin-left: 5px;
+    }
+        
+
+
+    /*---------------------------------------------SPAN--------------------------------------------*/
+    .bold {
+    font-weight: 700;
+    }
+    .regular {
+    font-weight: 400; 
+     
+    }
+    .black {
+    font-weight: 900; 
+    }
+    /*---------------------------------------------H2 H4--------------------------------------------*/
+    h2 {
+    font-size: 45px;
+    }
+    h4 {
+    font-size: 45px;
+    }
+    h5 {
+    font-size: 16.57px;
+    }
